@@ -2,7 +2,7 @@
 from time import sleep #To give time to browser so that data can be loaded properly, interpreter wait for some time due to it.
 from bs4 import BeautifulSoup #Python Library to Parse HTML Content.
 from selenium import webdriver #It is used for cross-browser testing.
-import re # Regex library to match different patterns
+import re # Regex library to match different patterns.
 import mysql.connector as dr #to connect mysql database to python
 import os
 from dotenv import load_dotenv #using dotenv to get those keys which are secret and stored in environment files
